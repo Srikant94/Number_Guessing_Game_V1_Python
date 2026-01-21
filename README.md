@@ -1,35 +1,31 @@
-## 🎯 Number Guessing Game Version 1 (Python)
+# 🎯 Number Guessing Game (Python)
 
 A beginner-friendly Number Guessing Game built using Python in a Jupyter Notebook.  
 This project is part of my hands-on practice to strengthen Python fundamentals.
 
+---
+
 ## 📌 Project Overview
-- Random number between 1 and 20
-- User guesses until correct
-- Hints provided (high / low)
+
+The notebook implements a simple number guessing game where:
+- A random number between 1 and 20 is generated
+- The user keeps guessing until the correct number is entered
+- Hints are provided if the guess is too high or too low
+
+---
 
 ## 🛠 Concepts Practiced
-- Variables
-- while loop
+
+- Python variables
+- `while` loop
 - Conditional statements
-- User input
-- random module
+- User input handling
+- Python `random` module
+
+---
 
 ## ▶ How to Run the Project
-1. Clone the repository
-2. Open the Jupyter Notebook
-3. Run all cells
 
-## 📈 Learning Outcome
-- Program flow using loops
-- Decision-making using conditionals
-- Handling user input
-
-## 🔮 Planned Enhancements
-- Attempt limit
-- Scoring system
-- Replay option
-- Better input validation
-
-## 📬 Feedback
-Suggestions and feedback are welcome as I continue learning Python and Data Science.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Srikant94/number-guessing-game.git

@@ -1,4 +1,4 @@
-## 🎯 Number Guessing Game (Python)
+## 🎯 Number Guessing Game Version 1 (Python)
 
 A beginner-friendly Number Guessing Game built using Python in a Jupyter Notebook.  
 This project is part of my hands-on practice to strengthen Python fundamentals.

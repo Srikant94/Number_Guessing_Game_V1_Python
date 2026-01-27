@@ -5,20 +5,6 @@
 
 Goal - The goal of this project series is to strengthen Python fundamentals, practice problem-solving, and build the habit of writing readable, well-documented code while learning in public.
 
-## 📂 Repository Structure
-
-number-guessing-game-python/
-│
-├── README.md                # Overall project overview
-│
-├── version-1/
-│   ├── number_guessing_v1.ipynb
-│   └── README.md            # Documentation for Version 1
-│
-├── version-2/
-│   ├── number_guessing_v2.py
-│   └── README.md            # Documentation for Version 2
-
 🚀 Project Objective : This project is part of my learning journey toward:
 
 - Python Programming

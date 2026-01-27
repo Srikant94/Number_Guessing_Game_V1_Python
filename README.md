@@ -1,62 +1,67 @@
-🎯 Number Guessing Game (Python) – Version 1
+# 🎯 Number Guessing Game – Python Mini Project Series
 
-A beginner-friendly Number Guessing Game built using Python in a Jupyter Notebook.
-This project is part of my hands-on practice to strengthen Python fundamentals as I progress towards Data Science, Machine Learning, and AI.
+- This repository contains a **Python Number Guessing Game** developed as a series of incremental mini-projects.
+- Each version improves upon the previous one by adding new features, better logic, and cleaner code structure.
 
-📌 Project Overview
+Goal - The goal of this project series is to strengthen Python fundamentals, practice problem-solving, and build the habit of writing readable, well-documented code while learning in public.
 
-The Number Guessing Game is a simple interactive program where:
-The computer randomly selects a number between 1 and 20.
-The user attempts to guess the number.
-After each guess, the program provides hints if the guess is too high or too low.
-The game continues until the user correctly guesses the number.
-This project is intentionally simple but serves as a foundation to practice basic Python concepts and develop logical thinking.
+## 📂 Repository Structure
 
-🛠 Concepts Practiced
+number-guessing-game-python/
+│
+├── README.md                # Overall project overview
+│
+├── version-1/
+│   ├── number_guessing_v1.ipynb
+│   └── README.md            # Documentation for Version 1
+│
+├── version-2/
+│   ├── number_guessing_v2.py
+│   └── README.md            # Documentation for Version 2
 
-Version-1 of this project helped me strengthen and apply the following Python concepts:
-Python variables and data types
-while loops for repeated execution
-Conditional statements (if, elif, else)
-Handling user input and converting data types (input(), int())
-Generating random numbers using the Python random module
-Basic debugging and logical reasoning
+🚀 Project Objective : This project is part of my learning journey toward:
 
-▶ How to Run the Project
+- Python Programming
+- Data Science
+- Machine Learning & AI
 
-Follow these steps to run the Jupyter Notebook:
-Clone the repository:
-git clone https://github.com/yourusername/Number_Guessing_Game_Python.git
+Instead of jumping directly into advanced topics, I am focusing on:
 
-Navigate to the project folder:
-cd Number_Guessing_Game_Python
+- Writing correct and clean Python code
+- Understanding control flow and logic deeply
+- Improving projects incrementally (version-wise)
 
-Launch Jupyter Notebook:
-jupyter notebook
+🧠 What This Repository Demonstrates
 
-Open the notebook:
-notebooks/number_guessing_game_v1.ipynb
+- Step-by-step project evolution
+- Progressive feature enhancement
+- Clean folder structure and documentation
+- Beginner-friendly but professionally written code
+- Thoughtful use of functions, loops, and conditionals
 
-Run the cells to start the game and follow on-screen instructions.
+🛠 Tech Stack
 
-📈 Learning Outcomes
+- Language: Python
+- Environment: Jupyter Notebook (Version 1), Python Script (Version 2)
 
-This project allowed me to:
-Understand program flow and control structures using loops
-Implement decision-making using conditional statements
-Handle user input effectively
-Develop problem-solving and debugging skills
-Gain confidence in writing and testing small Python programs
+Concepts: 
 
-🔮 Planned Enhancements (For Version-2+)
+- Loops
+- Conditionals
+- Functions
+- Exception Handling
+- User Input
+- Modular design
 
-Future improvements I plan to implement:
-Add an attempt limit to make the game more challenging
-Introduce a scoring system based on attempts
-Add replay functionality so users can start a new game without restarting the notebook
-Improve input validation to handle invalid entries
-These enhancements will make the game more interactive, structured, and closer to real-world application logic.
+📈 Future Plans
 
-📬 Feedback
+- Add more structured levels and game modes
+- Improve scoring logic further
+- Introduce logging and statistics
+- Apply similar versioning strategy to future Python & Data Science projects
 
-I welcome feedback and suggestions from Python enthusiasts, Data Science professionals, and recruiters as I continue to improve my skills and build more advanced projects.
+📬 Feedback & Suggestions
+- Feedback, suggestions, and code improvement ideas are always welcome.
+This repository reflects my continuous learning  process.
+
+⭐ If you find this project helpful or interesting, feel free to star the repository.

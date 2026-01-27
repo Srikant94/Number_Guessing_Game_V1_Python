@@ -1,142 +1,78 @@
-🎯 Number Guessing Game – Version 2 (Python)
-📌 Project Overview
+# 🎯 Number Guessing Game – Version 2
 
-The Number Guessing Game (Version 2) is a console-based Python application that challenges the user to guess a randomly generated number within a limited number of attempts.
+- Version 2 is an **enhanced and structured version** of the Number Guessing Game.
+- This version introduces new features that significantly improve gameplay, usability, and code quality.
 
-This version enhances the initial implementation by introducing difficulty levels, dynamic attempt limits, improved scoring logic, and better code structure for readability and scalability.
+## 🚀 Enhancements Over Version 1
 
-The project is designed as a learning-focused mini project to strengthen Python fundamentals such as loops, conditionals, functions, exception handling, and user interaction.
+Version 2 introduces:
 
-🚀 Features
+- Multiple difficulty levels (Easy, Medium, Hard)
+- Dynamic number ranges based on difficulty
+- Limited number of attempts per level
+- Improved scoring logic
+- Replay functionality
+- Input validation using exception handling
+- Cleaner, modular code using functions
 
-🎚 Multiple Difficulty Levels
+## 🎮 Game Features
 
-Easy
+### 🔹 Difficulty Levels
+| Level | Number Range | Attempts |
+|------|-------------|----------|
+| Easy | 1 – 10 | 7 |
+| Medium | 1 – 20 | 5 |
+| Hard | 1 – 30 | 3 |
 
-Medium
+### 🔹 Scoring System
 
-Hard
+- Score is calculated based on remaining attempts
+- Encourages smarter guessing and strategy
 
-🔢 Dynamic Number Range based on selected difficulty
+### 🔹 Replay Mode
 
-🔄 Dynamic Attempt Limits per difficulty level
+- Players can replay the game without restarting the program
+- Improves overall user experience
 
-🧮 Score Calculation System based on remaining attempts
+### 🔹 Input Validation
 
-🔁 Replay Functionality to play multiple rounds
+- Handles non-numeric inputs gracefully
+- Prevents program crashes due to invalid input
 
-⚠️ Input Validation to handle invalid user input gracefully
+## 🧠 Concepts Practiced
 
-🧱 Modular Code Structure using functions
+- Functions and modular programming
+- Loops with exit conditions
+- Exception handling (Try / Except)
+- Code reusability and readability
+- User-centric program design
 
-💬 Clear user prompts and feedback messages
+## 🛠 Implementation Details
 
-🎚 Difficulty Levels Explained
-Difficulty	Number Range	Max Attempts
-Easy	1 – 10	7
-Medium	1 – 20	5
-Hard	1 – 30	3
+- Implemented as a Python jupyter notebook script (.ipynb)
+- Functions separate concerns:
+  - Difficulty selection
+  - Game logic
+  - Replay handling
+- Code is fully commented for clarity
 
-Each difficulty level adjusts the complexity of the game and scoring potential, encouraging smarter guesses.
+## ▶ How to Run
 
-🧠 Scoring Logic
+1. Open the file: number_guessing_v2.ipynb
+2. Run the script in Python
+3. Select a difficulty level
+4. Start guessing!
 
-The score is calculated using the formula:
+## 📈 Learning Outcome
 
-Score = Remaining Attempts × 15
+This version helped me understand:
 
+- How to design programs with scalability in mind
+- How to refactor code for better structure
+- How small feature additions can greatly improve usability
+- How to write professional, readable Python code
+  
+## ✅ Purpose of Version 2
 
-Higher difficulty levels result in higher risk and reward
-
-If all attempts are exhausted, the score is 0
-
-🛠 Tech Stack
-
-Programming Language: Python
-
-Environment: Jupyter Notebook / Python CLI
-
-Libraries Used:
-
-random (for number generation)
-
-📂 Project Structure
-number-guessing-game/
-│
-├── number_guessing_game_v2.py
-├── README.md
-
-▶️ How to Run the Game
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/number-guessing-game.git
-
-2️⃣ Navigate to the Project Folder
-cd number-guessing-game
-
-3️⃣ Run the Game
-python number_guessing_game_v2.py
-
-
-(If using Jupyter Notebook, run the cells sequentially)
-
-🧪 Sample Gameplay Flow
-
-User selects a difficulty level
-
-Game generates a random number within the chosen range
-
-User enters guesses
-
-Game provides hints (Too High / Too Low)
-
-Score is calculated based on remaining attempts
-
-User can choose to replay or exit
-
-🧩 Key Learning Outcomes
-
-This project helped reinforce:
-
-Python functions and modular programming
-
-Loop control and conditional logic
-
-Exception handling using try-except
-
-User input validation
-
-Writing readable and well-commented code
-
-Thinking from a user-experience perspective
-
-🔮 Future Improvements (Planned)
-
-Add a timer-based scoring system
-
-Store high scores using files
-
-Add difficulty-based multipliers
-
-Convert the game into a GUI application
-
-Add automated unit tests
-
-🤝 Contributions
-
-This is a personal learning project, but suggestions and feedback are always welcome.
-
-If you have ideas for improvements, feel free to:
-
-Open an issue
-
-Submit a pull request
-
-Share feedback on LinkedIn
-
-📬 Connect With Me
-
-I’m documenting my journey in Python, Data Science, and AI step by step.
-
-Let’s learn and grow together 🚀
-
-⭐ If you find this project helpful, consider giving it a star!
+- Version 2 demonstrates **growth in problem-solving, design thinking, and Python fundamentals**.
+- It reflects a transition from “just making it work” to writing **clean and maintainable code**.
